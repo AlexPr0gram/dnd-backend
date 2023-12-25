@@ -6,5 +6,5 @@ export interface IStroies {
     image: string; // 'Путь до файла'
     genre: string; //'Экшон'
     playersCount: number; // '5'
-    createdDate: Date; // 213123123213123
+    createdDate: number; // 213123123213123
 }

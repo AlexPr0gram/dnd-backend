@@ -13,7 +13,7 @@ export class AppService {
         image: '',
         genre: 'Исторический',
         playersCount: 5,
-        createdDate: new Date()
+        createdDate: new Date().getTime()
       },
       {
         id: '2',
@@ -23,7 +23,7 @@ export class AppService {
         image: '',
         genre: 'Фантастика',
         playersCount: 5,
-        createdDate: new Date()
+        createdDate: new Date().getTime()
       },
       {
         id: '3',
@@ -33,7 +33,7 @@ export class AppService {
         image: '',
         genre: 'Фантастика',
         playersCount: 4,
-        createdDate: new Date()
+        createdDate: new Date().getTime()
       },
       {
         id: '4',
@@ -43,7 +43,7 @@ export class AppService {
         image: '',
         genre: 'Фантастика',
         playersCount: 3,
-        createdDate: new Date()
+        createdDate: new Date().getTime()
       },
       {
         id: '5',
@@ -53,7 +53,7 @@ export class AppService {
         image: '',
         genre: 'Приключения',
         playersCount: 6,
-        createdDate: new Date()
+        createdDate: new Date().getTime()
       }
     ];
   }
