@@ -3,11 +3,11 @@ import { AppService } from './app.service';
 import { IStroies } from './interface/stories.interface';
 
 
-@Controller('/stories')
+@Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
-  @Get()
+  @Get('stories')
   getAll(): Array<IStroies> {
     return this.appService.getAll();
   }
